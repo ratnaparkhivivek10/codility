@@ -3,4 +3,4 @@
 
 def solution(A):
     # write your code in Python 3.6
-    pass
+    return 1 if sorted(A) == list(range(1, len(A)+1)) else 0
